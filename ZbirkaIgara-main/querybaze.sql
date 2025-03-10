@@ -12,7 +12,6 @@ CREATE TABLE Igra (
     Naslov VARCHAR(255) NOT NULL,
     Opis VARCHAR(MAX),
     hltb INT,
-    ocjena DECIMAL(4,2),
     DatumIzdavanja DATE,
     Platforme VARCHAR(255),
     Trailer VARCHAR(MAX),
