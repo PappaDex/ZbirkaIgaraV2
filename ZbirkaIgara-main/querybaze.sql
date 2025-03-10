@@ -1,4 +1,4 @@
-﻿CREATE DATABASE ZbirkaIgara;
+CREATE DATABASE ZbirkaIgara
 USE ZbirkaIgara;
 
 CREATE TABLE Zanr (
@@ -31,7 +31,7 @@ INSERT INTO Zanr (ImeZanra) VALUES
 ('Trkaća'),
 ('Platformer');
 
-INSERT INTO Igra (IdZanra, Naslov, Opis, hltb, ocjena, DatumIzdavanja, Platforme, Trailer, UrlSlike) VALUES
+INSERT INTO Igra (IdZanra, Naslov, Opis, hltb, DatumIzdavanja, Platforme, Trailer, UrlSlike) VALUES
 (3, 'The Witcher 3: Wild Hunt', 'RPG s otvorenim svijetom koji prati Geralta od Rivije.', 50,'2015-05-19', 'PC, PS4, Xbox One, Switch', 'https://www.youtube.com/watch?v=ehjJ614QfeM', 'https://example.com/witcher3.jpg'),
 (3, 'Red Dead Redemption 2', 'Vestern igra s ogromnim otvorenim svijetom.', 60, '2018-10-26', 'PC, PS4, Xbox One', 'https://www.youtube.com/watch?v=gmA6MrX81z4', 'https://example.com/rdr2.jpg'),
 (3, 'Dark Souls 3', 'Izazovna RPG igra s teškim borbama.', 40, '2016-04-12', 'PC, PS4, Xbox One', 'https://www.youtube.com/watch?v=-XwhYVzN_a0', 'https://example.com/darksouls3.jpg'),
